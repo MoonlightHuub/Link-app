@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "name": "Portfolio",
+        "link": "https://deft-selkie-6fe7d4.netlify.app",
+        "image": "./portfolio-image.png"
+    },
+    {
+        "id": 1,
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/rodrigo-dominguez-92645a249/",
+        "image": "./linkedin-logo.png"
+    },
+    {
+        "id": 2,
+        "name": "GitHub",
+        "link": "https://github.com/MoonlightHuub",
+        "image": "./github-logo.png"
+    },
+    {
+        "id": 3,
+        "name": "Instagram",
+        "link": "https://www.instagram.com/rodridrx7/",
+        "image": "./instagram-logo.png"
+    },
+    {
+        "id": 4,
+        "name": "Telegram",
+        "link": "https://t.me/Rodrigodrx7",
+        "image": "./telegram-logo.png"
+    },
+    {
+        "id": 5,
+        "name": "Tik Tok",
+        "link": "https://www.tiktok.com/@bloodmoney__?is_from_webapp=1&sender_device=pc",
+        "image": "./tiktok-logo.png"
+    }
+]

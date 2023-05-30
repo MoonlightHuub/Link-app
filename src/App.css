@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+  color: #f1f1f1;
+  text-align: center;
+}
+
+html {
+  background-color: #121212;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(18%2c 18%2c 18%2c 1)'%3e%3c/rect%3e%3cpath d='M -876.2868672172015%2c452 C -780.29%2c412 -588.29%2c245 -396.2868672172015%2c252 C -204.29%2c259 -108.29%2c509.2 83.71313278279848%2c487 C 275.71%2c464.8 371.71%2c170.2 563.7131327827985%2c141 C 755.71%2c111.8 868.46%2c345.6 1043.7131327827985%2c341 C 1218.97%2c336.4 1360.74%2c162.6 1440%2c118' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -822.9150011073896%2c501 C -726.92%2c424 -534.92%2c128.4 -342.91500110738957%2c116 C -150.92%2c103.6 -54.92%2c410.4 137.08499889261043%2c439 C 329.08%2c467.6 425.08%2c283.6 617.0849988926104%2c259 C 809.08%2c234.4 932.5%2c354 1097.0849988926104%2c316 C 1261.67%2c278 1371.42%2c118.4 1440%2c69' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -441.6968736071942%2c329 C -345.7%2c317.6 -153.7%2c245.4 38.30312639280578%2c272 C 230.3%2c298.6 326.3%2c502.2 518.3031263928058%2c462 C 710.3%2c421.8 806.3%2c83.6 998.3031263928058%2c71 C 1190.3%2c58.4 1389.96%2c375.8 1478.3031263928058%2c399 C 1566.64%2c422.2 1447.66%2c229.4 1440%2c187' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -744.5833407107644%2c310 C -648.58%2c282.2 -456.58%2c134.6 -264.58334071076445%2c171 C -72.58%2c207.4 23.42%2c489.8 215.41665928923555%2c492 C 407.42%2c494.2 503.42%2c222.8 695.4166592892356%2c182 C 887.42%2c141.2 1026.5%2c298.6 1175.4166592892357%2c288 C 1324.33%2c277.4 1387.08%2c160.8 1440%2c129' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-container{
+  background: linear-gradient(0deg, rgba(12, 12, 12, 1) 1%, transparent 0%);
+}
+
+.title-header{
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 2.5em;
+}
+
+@media (max-width: 640px){
+  .title-header{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-right: 1em;
+    margin-top: 1em;
+    font-size: 2.2em;
+  }
+}
